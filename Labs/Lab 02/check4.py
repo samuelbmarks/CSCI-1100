@@ -1,0 +1,11 @@
+f = input("Please enter your first name: ")
+l = input("Please enter your last name: ")
+h = "Hello,"
+print()
+m = max(len(h),len(f),len(l+"!"))
+n = "*"*(m+6)
+print(n)
+print("**",h+" "*(len(n)-(len(h)+5))+"**")
+print("**",f+" "*(len(n)-(len(f)+5))+"**")
+print("**",(l+"!")+" "*(len(n)-(len(l+"!")+5))+"**")
+print(n)

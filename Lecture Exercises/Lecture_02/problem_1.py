@@ -1,0 +1,1 @@
+print("adrian morfin is the biggest pussy not only in pikes, but in the whole wide world")
